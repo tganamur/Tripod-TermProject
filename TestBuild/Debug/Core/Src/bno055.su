@@ -1,0 +1,11 @@
+../Core/Src/bno055.cpp:19:1:bno055::bno055(I2C_HandleTypeDef*)	16	static
+../Core/Src/bno055.cpp:33:9:int16_t bno055::read_oneByte(uint32_t)	48	static
+../Core/Src/bno055.cpp:53:9:int16_t bno055::read_twoByte(uint32_t)	48	static
+../Core/Src/bno055.cpp:82:6:void bno055::write(uint32_t, uint8_t*, uint32_t)	48	static
+../Core/Src/bno055.cpp:93:9:int16_t bno055::read_gyr_x()	24	static
+../Core/Src/bno055.cpp:104:9:int16_t bno055::read_gyr_y()	24	static
+../Core/Src/bno055.cpp:115:9:int16_t bno055::read_gyr_z()	24	static
+../Core/Src/bno055.cpp:126:9:int16_t bno055::read_eul_x()	24	static
+../Core/Src/bno055.cpp:138:9:int16_t bno055::read_eul_y()	24	static
+../Core/Src/bno055.cpp:150:9:int16_t bno055::read_eul_z()	24	static
+../Core/Src/bno055.cpp:165:5:int bno055::bound(int, int, int)	32	static

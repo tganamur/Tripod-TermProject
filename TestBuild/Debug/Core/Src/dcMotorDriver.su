@@ -1,0 +1,3 @@
+../Core/Src/dcMotorDriver.cpp:15:6:void enable(dcmotor_t)	32	static
+../Core/Src/dcMotorDriver.cpp:26:6:void disable(dcmotor_t)	32	static
+../Core/Src/dcMotorDriver.cpp:38:6:void setDuty(dcmotor_t, int32_t)	24	static
