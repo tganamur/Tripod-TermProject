@@ -1,3 +1,5 @@
+![Tripod Photos](tripod_sc-min.png?raw=true "Title")
+
 Worked in a team of myself and another mechatronics student from Cal Poly. 
 
 Mechanical Design
