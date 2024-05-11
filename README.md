@@ -1,5 +1,6 @@
 ![Tripod Photos](tripod_sc-min.png?raw=true "Title")
 
+__Code Documentation__: [Tripod Code Documentation](https://me507termproject.github.io/TripodProject/annotated.html)  
 Worked in a team of myself and another mechatronics student from Cal Poly. 
 
 Mechanical Design
@@ -24,3 +25,5 @@ An object-orientated software structure was used in the project, with classes fo
 
 
 The computer vision portion of the project was written using Python on the Jetson Nano. OpenCV and other Python libraries were used to take camera data and track an object of interest. The Python script also allowed for different color objects to be tracked by changing the HSV value range that was tracked by the foreground mask. Once the object was detected, a box was drawn around it and the centroid of that was found and stored for each frame. During each frame, the difference in x-coordinates between the centroid of the object and the center of the frame was calculated. This error was then used then implemented in a basic P controller which then sent the appropriate duty through UART to the microcontroller on the PCB. The values were then received by the microcontroller through an interrupt callback.
+
+
